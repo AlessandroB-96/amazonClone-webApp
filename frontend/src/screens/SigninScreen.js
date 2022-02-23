@@ -60,7 +60,7 @@ export default function SigninScreen(props) {
                     <label/>
                     <div>
                         New Customer? {' '}
-                        <Link to="/register">Create new account</Link>
+                        <Link to={`/register?redirect=${redirect}`}>Create new account</Link>
                     </div>
                 </div>
             </form>

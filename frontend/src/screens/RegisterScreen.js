@@ -40,7 +40,7 @@ export default function RegisterScreen(props) {
             <form className='form' onSubmit={submitHandler}>
                 <div>
                     <h1>
-                        Register
+                        Create account
                     </h1>
                 </div>
                 {loading && <LoadingBox></LoadingBox>}
@@ -79,7 +79,7 @@ export default function RegisterScreen(props) {
                     <label/>
                     <div>
                         Already have an account? {' '}
-                        <Link to="/signin">Sign-in</Link>
+                        <Link to={`/signin?redirect=${redirect}`}>Sign-in</Link>
                     </div>
                 </div>
             </form>
