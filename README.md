@@ -8,3 +8,6 @@
 #### If a product is avaible it can be added to a Cart, whose datas are saved locally on the user computer; from the Cart section it's possible to see the total quantity of items added, the total price (which is the sum of [prices of items * quantity]) and it's possible to remove undesired products from the total.
 #### It's also implemented a user Sign-in screen in wich in possible to enter a mail and password, if they are correct users are logged into the web app, their name appears on the top right of the screen, onto the navbar and they can access to their cart; its possible to log-out by simply clicking on the user's name.
 
+### 1.1 Register user
+#### Added the functionality to create a new user setting a name, an email and a password; it's required to insert password two times to match the two entries. After creating a user, the app logs the user in on the site.
+
